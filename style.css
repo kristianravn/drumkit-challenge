@@ -1,0 +1,79 @@
+  h1{
+    text-align: center;
+    margin: 100px auto 50px;
+    font-weight: 600;
+    font-size: 300px;
+} 
+
+h2{
+    text-align: center;
+    margin: 100px auto 50px;
+    font-weight: 600;
+    font-size: 100px;  
+}
+body{
+    background: lightblue;
+    color: white;
+    height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    font-size: 300px;
+}
+
+
+.responsive-image{
+    max-width: 90%;
+    height: auto;
+}
+
+.letter-button:hover {
+    background-color: #ddd; 
+} 
+button {
+    padding: 15px 30px; 
+    font-size: 100px;    
+    margin: 5px; 
+    border-radius: 12px;        
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: #f0f0f0;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #ddd; 
+} 
+.drumkitcontainer{
+    position: relative;
+    width: 600px;
+    height: 400px;
+    background-image:url('drumkit\ image/drumkit.png');
+    background-size: cover;
+}
+
+.drumkit-part{
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius:50%;
+}
+
+
+     
+
+
+
+
+
+
+
+
+
+
