@@ -10,7 +10,7 @@ const sounds = {
     tom: new Audio('sounds/tom.wav')
 };
 
-// Event listeners for buttons
+
 document.getElementById("BoomBtn").addEventListener("click", () => {
     sounds.boom.currentTime = 0;
     sounds.boom.play();
@@ -48,7 +48,6 @@ document.getElementById("tomBtn").addEventListener("click", () => {
     sounds.tom.play();
 });
 
-// Event listeners for key presses
 document.addEventListener("keydown", (event) => {
     switch(event.key) {
         case 'a':
