@@ -1,3 +1,4 @@
+// this code refares to the soundfiles that are to be played either with a mouse click or key press
 const sounds = {
     boom: new Audio('sounds/boom.wav'),
     clap: new Audio('sounds/clap.wav'),
@@ -10,7 +11,7 @@ const sounds = {
     tom: new Audio('sounds/tom.wav')
 };
 
-
+// this code refares to the mouse click and is linked to the html section for the mouce click
 document.getElementById("BoomBtn").addEventListener("click", () => {
     sounds.boom.currentTime = 0;
     sounds.boom.play();
@@ -47,7 +48,7 @@ document.getElementById("tomBtn").addEventListener("click", () => {
     sounds.tom.currentTime = 0;
     sounds.tom.play();
 });
-
+// this code refares to the key that is pressed and is linked to the html part for the key press
 document.addEventListener("keydown", (event) => {
     switch(event.key) {
         case 'a':
